@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+	<name>ball_sorter</name>
+	<version>0.0.0</version>
+	<description>The ball sorter package using dyna_arm</description>
+
+	<maintainer email="csperbec@ycp.edu">csperbec</maintainer>
+	<license> :) </license>
+
+	<author email="csperbec@ycp.edu">Cara Sperbeck</author>
+
+
+	<buildtool_depend>catkin</buildtool_depend>
+	<build_depend>rospy</build_depend>
+	<build_export_depend>rospy</build_export_depend>
+	<exec_depend>rospy</exec_depend>
+</package>
