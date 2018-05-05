@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="ball_sorter" name="ball_sorter" type="pick_up_ball.py" output="screen"/>
+	<node pkg="ball_sorter" name="ball_tracking_ros" type="ball_tracking_ros.py" output="screen"/>
+</launch>
